@@ -1,0 +1,8 @@
+.bg-container{
+    display: flex;
+    justify-content: center;  
+}
+
+.dissertation-card{
+    border-style: solid;
+}

@@ -1,0 +1,62 @@
+.guide-student-details-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .database-heading{
+    align-self: flex-start;
+    margin-left: 50px;
+  }
+  .student-details{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    th, td {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    tr{
+      box-shadow: 0px 1px 0px grey;
+    }
+    .flex-page{
+      display: flex;
+      width: 90%;
+    }
+    .studentProfileContainer{
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    }
+    .student-profile{
+      background-color: darkgray;
+      border-radius: 50%;
+      padding: 50px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .studentDetailsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    overflow-y: scroll;
+    height: 450px;
+    }
+    
+    .student-profile-image{
+    border-radius: 100px;
+    height: 100px;
+    }
+    
+    .table-headers{
+      width: 100%;
+    }
+    

@@ -1,0 +1,10 @@
+.tagline-image{
+    width: 400px;
+    height: 400px;
+}
+
+.tagline-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

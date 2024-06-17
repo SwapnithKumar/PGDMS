@@ -1,0 +1,131 @@
+.student-dashboard-bg-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: ghostwhite;
+
+}
+
+.student-dashboard-thesis-calendar-container{
+    display: felx;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    min-height: 90vh;
+}
+
+
+.student-thesis-card {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e3e6f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px;
+    width: 30vw;
+    height: 500px;
+}
+
+.student-thesis-card-header {
+    background-color: #4e73df;
+    color: #fff;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+
+.calendar-card {
+    width: 450px; 
+    position: right;
+    background-color: #fff;
+    border: 1px solid #e3e6f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 30px;
+    height: 600px;
+}
+
+
+
+
+
+.stepper {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.step-number {
+    width: 30px;
+    height: 30px;
+    background-color: #4e73df;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+  
+.completed .step-number {
+    background-color: #5cb85c;
+}
+  
+.step-label {
+    margin-left: 10px;
+}
+  
+.stepper {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+  
+.step {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+  
+.step-number {
+    width: 30px;
+    height: 30px;
+    background-color: #4e73df;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    z-index: 2;
+}
+  
+.completed .step-number {
+    background-color: #5cb85c;
+}
+  
+.step-label {
+    margin-left: 0px;
+}
+  
+  
+.line {
+    height: 2px;
+    background-color: #4e73df;
+    width: calc(100% - 30px);
+    top: 50%;
+    left: 30px;
+    z-index: 1;
+}
+  
+ 

@@ -1,0 +1,203 @@
+/* Main background container styling */
+.student-dashboard-bg-container {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    background-color: rgb(246, 247, 255);
+    padding: 30px; /* Keep this padding */
+    /* Remove this padding: padding: 100px; */
+  }
+  
+  /* Styling for the 'Continue Your Thesis' card */
+  .my-current-thesis-section {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .my-current-thesis-card  {
+    background-color: #fff;
+    border: 1px solid #e3e6f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    height: 400px;
+    margin-right: 100px;
+    width: 550px;
+  }
+
+  .thesis-and-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  /* Styling for the 'Continue' button */
+  .continue-button {
+    background-color: #4e73df;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: flex-end;
+    width: 110px;
+  }
+  
+  .continue-button:hover {
+    background-color: #375cb8;
+  }
+  
+  /* Styling for the additional cards section */
+  .cards-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-self: flex-start;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #e3e6f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styling for the calendar section */
+ /* Styling for the calendar section */
+.calendar-section {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    min-height: 90vh;
+  }
+  
+  /* Remove borders from calendar events */
+  .rbc-event {
+    border: none;
+    box-shadow: none;
+    background-color: #4e73df; /* Set the background color for calendar events */
+    color: #fff; /* Set the text color for calendar events */
+    font-weight: bold;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  /* Add some margin and padding to calendar events for spacing */
+  .rbc-event-content {
+    margin: 2px;
+    padding: 4px;
+  }
+
+  .rbc-month-view {
+    position: relative;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    height: 100%;
+    z-index: 1;
+  }
+  /* Style for the "Add New Event" section */
+  .calendar-section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the input fields in "Add New Event" section */
+  .calendar-section input[type="text"],
+  .calendar-section .react-datepicker-wrapper {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style for the "Add Event" button */
+  .calendar-section .add-event-button {
+    background-color: #1cc88a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calendar-section .add-event-button:hover {
+    background-color: #17a673;
+  }
+  
+  
+  /* Styling for the progress tracker */
+  .tracker-card {
+    background-color: #fff;
+    border: 1px solid #e3e6f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    overflow-x: scroll;
+  }
+  
+  .stepper {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .step-number {
+    width: 30px;
+    height: 30px;
+    background-color: #4e73df;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .completed .step-number {
+    background-color: #5cb85c;
+  }
+  
+  .step-label {
+    margin-left: 10px;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #4e73df;
+    position: relative;
+    margin-right: 10px;
+    width: 60px;
+  }
+  

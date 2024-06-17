@@ -1,0 +1,11 @@
+.home-page-bg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.gif-image{
+    background-color: #f3f3f3;
+}

@@ -1,0 +1,53 @@
+/* src/App.css */
+
+.App {
+    text-align: center;
+  }
+
+  .header {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 100x;
+    background-color: #ffffff;
+    z-index: 1000; /* Ensure the header appears above other elements */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .domain-list {
+    margin: 20px;
+  }
+  
+  .domain-list button {
+    margin: 2px;
+  padding: 9px 15px;
+  font-size: 16px;
+  background-color: #275fda;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  .profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 170px;
+  }
+  
+  .card-student-coordinator {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
